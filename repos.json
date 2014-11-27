@@ -144,7 +144,7 @@
     "current" :"master"
 },{
     "title" : "UBUNTU",
-    "repo"  : "https://git-wip-us.apache.org/repos/asf/cordova-ubuntu.git",
+    "repo"  : "https://github.com/Zaspire/cordova-ubuntu.git",
     "category" : "PLATFORM",
     "release" : "RELEASE",
     "current" :"master"
