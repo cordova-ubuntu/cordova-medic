@@ -31,7 +31,7 @@ module.exports = function(output, sha, devices, entry_point, couchdb_cfg, callba
     var pkgname= 'mobilespec';
     log('Compiling.');
 
-    var build = 'umask 022; cd ' + path.join(output, '..', '..') + '; '+ path.join(output, 'cordova','build') + ' --debug';
+    var build = 'export DISPLAY=:0; umask 022; cd ' + path.join(output, '..', '..') + '; '+ path.join(output, 'cordova','build') + ' --debug';
     shell.exec(build, {silent:true, async:true}, function(code, compile_output) {
         log('Compile exit: ' + code);
 
