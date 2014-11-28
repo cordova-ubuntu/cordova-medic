@@ -39,7 +39,7 @@ module.exports = function(output, sha, devices, entry_point, couchdb_cfg, callba
             error_writer('ubuntu', sha, 'Compilation error', compile_output);
             callback(true);
         } else {
-            var run = 'umask 022; cd ' + path.join(output, '..', '..') + '; '+ path.join(output, 'cordova','run') + ' --emulate';
+            var run = 'umask 022; cd ' + path.join(output, '..', '..') + '; '+ path.join(output, 'cordova','run');
             log('Running.');
 
             var app = cp.exec('bash -c "' + run + '"');
