@@ -106,7 +106,7 @@
     "current" : "master"
 },{
     "title" : "COHO",
-    "repo" : "https://git-wip-us.apache.org/repos/asf/cordova-coho.git",
+    "repo" : "https://github.com/Zaspire/cordova-coho.git",
     "category" : "COHO",
     "release" : "master",
     "current" : "master"
